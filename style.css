@@ -1,0 +1,97 @@
+p {
+color: rgb(255, 203, 223);
+font-size: 18px;
+}
+
+body {
+    background-color: rgb(36, 5, 13);
+    font-family:'Montserrat'
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 56px;
+    font-family: 'Alan Sans';
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Alan Sans';
+}
+
+h3 {
+    color: rgb(179, 114, 137);
+    font-size: 24px;
+    font-family: 'Alan Sans';
+}
+
+img {
+display: block;
+    margin-left: 2;
+    margin-right: auto;
+    width: 150px;
+    height: 150px; /* Le das una altura fija */
+    object-fit: contain; /* Esto asegura que la imagen no se deforme */
+}
+
+section {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(69, 13, 29);
+    border-radius: 10px;
+    display: flex;
+        align-items: center; /* Alinea verticalmente */
+        gap: 20px; /* Espacio entre imagen y texto */
+        margin: 20px;
+        padding: 35px;
+        background-color: rgb(69, 13, 29);
+        border-radius: 10px;
+    box-shadow: 0 6px 8px rgb(26, 2, 8, 0.5); 
+}
+
+section p {
+    flex: 1; /* Esto le dice al párrafo que ocupe solo el espacio restante disponible */
+    margin: 0; /* Esto elimina márgenes extra que a veces crean espacios innecesarios */
+}
+
+nav a {
+        text-decoration: none; /* Quita el subrayado */
+        color: #e92074;
+        padding: 15px; 
+}
+
+nav a:hover {
+        color: white; /* Cambia a blanco cuando pasas el mouse */
+        text-decoration: underline;
+}
+
+a {
+    color: #e92074;
+    text-decoration: none;
+}
+
+section.COMIDA-INICIO, section.MATERIALES-BASICOS-INICIO, section.MATERIALES-OBLIGATORIOS-INICIO {
+display: flex;
+    justify-content: space-between; /* El título a la izquierda, las imágenes a la derecha */
+    align-items: center;
+}
+
+.contenedor-imagenes {
+    display: flex;
+    gap: 40px; /* Aquí controlas el espacio entre las imágenes exclusivamente */
+}
+
+input[type="search"] {
+    width: 98%;
+    padding: 20px;
+    margin: 20px 20px;
+    display: flex; 
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgb(104, 43, 60);
+    border: 4px solid #3f1212;
+    font-size: 30px;
+    font-family: 'Alan Sans';
+    border-radius: 10px;
+}
