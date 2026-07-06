@@ -1,29 +1,29 @@
 p {
-color: rgb(255, 203, 223);
+color: rgb(161, 169, 196);
 font-size: 18px;
 }
 
 body {
-    background-color: rgb(36, 5, 13);
+    background-color: rgb(19, 19, 27);
     font-family:'Montserrat'
 }
 
 h1 {
-    color: rgb(255, 255, 255);
+    color: rgb(187, 194, 226);
     font-size: 56px;
-    font-family: 'Montserrat';
+    font-family: 'Alan Sans';
 }
 
 h2 {
-    color: rgb(255, 255, 255);
+    color: rgb(187, 194, 226);
     font-size: 30px;
-    font-family: 'Montserrat';
+    font-family: 'Alan Sans';
 }
 
 h3 {
-    color: rgb(179, 114, 137);
+    color: rgb(187, 194, 226);
     font-size: 24px;
-    font-family: 'Montserrat';
+    font-family: 'Alan Sans';
 }
 
 img {
@@ -38,16 +38,16 @@ display: block;
 section {
     margin: 10px;
     padding: 20px;
-    background-color: rgb(69, 13, 29);
+    background-color: rgb(39, 40, 56);
     border-radius: 10px;
     display: flex;
         align-items: center; /* Alinea verticalmente */
         gap: 20px; /* Espacio entre imagen y texto */
         margin: 20px;
         padding: 35px;
-        background-color: rgb(69, 13, 29);
+        background-color: rgb(39, 40, 56);
         border-radius: 10px;
-    box-shadow: 0 6px 8px rgb(26, 2, 8, 0.5); 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5); 
 }
 
 section p {
@@ -57,7 +57,7 @@ section p {
 
 nav a {
         text-decoration: none; /* Quita el subrayado */
-        color: #e92074;
+        color: rgb(187, 194, 226);
         padding: 15px; 
 }
 
@@ -66,8 +66,13 @@ nav a:hover {
         text-decoration: underline;
 }
 
+section h2:hover {
+    color: white; /* Cambia a blanco cuando pasas el mouse */
+    text-decoration: underline;
+}
+
 a {
-    color: #e92074;
+    color: rgb(167, 184, 255);
     text-decoration: none;
 }
 
@@ -89,8 +94,8 @@ input[type="search"] {
     display: flex; 
     align-items: center;
     box-sizing: border-box;
-    background-color: rgb(104, 43, 60);
-    border: 4px solid #3f1212;
+    background-color: rgb(11, 11, 15);
+    border: 4px solid rgb(61, 61, 75);
     font-size: 30px;
     font-family: 'Alan Sans';
     border-radius: 10px;
