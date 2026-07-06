@@ -9,19 +9,19 @@ body {
 }
 
 h1 {
-    color: rgb(187, 194, 226);
+    color: rgb(131, 139, 175);
     font-size: 56px;
     font-family: 'Alan Sans';
 }
 
 h2 {
-    color: rgb(187, 194, 226);
+    color: rgb(131, 139, 175);
     font-size: 30px;
     font-family: 'Alan Sans';
 }
 
 h3 {
-    color: rgb(187, 194, 226);
+    color: rgb(131, 139, 175);
     font-size: 24px;
     font-family: 'Alan Sans';
 }
@@ -38,14 +38,14 @@ display: block;
 section {
     margin: 10px;
     padding: 20px;
-    background-color: rgb(68, 74, 104);
+    background-color: rgb(24, 25, 32);
     border-radius: 10px;
     display: flex;
         align-items: center; /* Alinea verticalmente */
         gap: 20px; /* Espacio entre imagen y texto */
         margin: 20px;
         padding: 35px;
-        background-color: rgb(68, 74, 104);
+        background-color: rgb(24, 25, 32);
         border-radius: 10px;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5); 
 }
@@ -57,7 +57,7 @@ section p {
 
 nav a {
         text-decoration: none; /* Quita el subrayado */
-        color: rgb(187, 194, 226);
+        color: rgb(211, 220, 255);
         padding: 15px; 
 }
 
@@ -72,7 +72,7 @@ section h2:hover {
 }
 
 a {
-    color: rgb(73, 77, 90);
+    color: rgb(205, 217, 255);
     text-decoration: none;
 }
 
