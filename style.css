@@ -5,25 +5,25 @@ font-size: 18px;
 
 body {
     background-color: rgb(19, 19, 27);
-    font-family:'Montserrat'
+    font-family:'Arial rounded MT Bold';
 }
 
 h1 {
     color: rgb(187, 194, 226);
     font-size: 56px;
-    font-family: 'Alan Sans';
+    font-family: 'Arial rounded MT Bold';
 }
 
 h2 {
     color: rgb(187, 194, 226);
     font-size: 30px;
-    font-family: 'Alan Sans';
+    font-family: 'Arial rounded MT Bold';
 }
 
 h3 {
     color: rgb(187, 194, 226);
     font-size: 24px;
-    font-family: 'Alan Sans';
+    font-family: 'Arial rounded MT Bold';
 }
 
 img {
