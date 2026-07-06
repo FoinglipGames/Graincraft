@@ -5,25 +5,25 @@ font-size: 18px;
 
 body {
     background-color: rgb(19, 19, 27);
-    font-family:'Sans-serif';
+    font-family:'Alan Sans'
 }
 
 h1 {
     color: rgb(187, 194, 226);
     font-size: 56px;
-    font-family: 'Sans-serif';
+    font-family: 'Alan Sans';
 }
 
 h2 {
     color: rgb(187, 194, 226);
     font-size: 30px;
-    font-family: 'Sans-serif';
+    font-family: 'Alan Sans';
 }
 
 h3 {
     color: rgb(187, 194, 226);
     font-size: 24px;
-    font-family: 'Sans-serif';
+    font-family: 'Alan Sans';
 }
 
 img {
@@ -38,14 +38,14 @@ display: block;
 section {
     margin: 10px;
     padding: 20px;
-    background-color: rgb(39, 40, 56);
+    background-color: rgb(68, 74, 104);
     border-radius: 10px;
     display: flex;
         align-items: center; /* Alinea verticalmente */
         gap: 20px; /* Espacio entre imagen y texto */
         margin: 20px;
         padding: 35px;
-        background-color: rgb(39, 40, 56);
+        background-color: rgb(68, 74, 104);
         border-radius: 10px;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5); 
 }
@@ -72,7 +72,7 @@ section h2:hover {
 }
 
 a {
-    color: rgb(167, 184, 255);
+    color: rgb(73, 77, 90);
     text-decoration: none;
 }
 
