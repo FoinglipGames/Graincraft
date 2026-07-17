@@ -33,6 +33,7 @@ display: block;
     width: 150px;
     height: 150px; /* Le das una altura fija */
     object-fit: contain; /* Esto asegura que la imagen no se deforme */
+    border-radius: 10px;
 }
 
 section {
@@ -76,7 +77,7 @@ a {
     text-decoration: none;
 }
 
-section.COMIDA-INICIO, section.MATERIALES-BASICOS-INICIO, section.MATERIALES-OBLIGATORIOS-INICIO {
+section.DESTACADOS {
 display: flex;
     justify-content: space-between; /* El título a la izquierda, las imágenes a la derecha */
     align-items: center;
@@ -99,4 +100,32 @@ input[type="search"] {
     font-size: 30px;
     font-family: 'Alan Sans';
     border-radius: 10px;
+}
+
+@keyframes Show{
+    from {
+        opacity: 0; scale: 10%
+    }
+    
+    to {
+        opacity: 1; scale: 100%
+    }
+}
+
+section.DESTACADOS {
+    view-timeline-name: --reveal;
+    animation-name: Show;
+    animation-fill-mode: both;
+
+    animation-timeline: --reveal;
+    animation-range: entry 0% cover 25%;
+}
+
+section.GRANJA {
+    view-timeline-name: --reveal;
+    animation-name: Show;
+    animation-fill-mode: both;
+
+    animation-timeline: --reveal;
+    animation-range: entry 0% cover 25%;
 }
